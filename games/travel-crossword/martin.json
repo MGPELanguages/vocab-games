@@ -1,0 +1,47 @@
+{
+  "type": "crossword",
+  "title": "Travel crossword",
+  "description": "Solve the clues to complete the crossword.",
+  "student": "Martín",
+  "level": "B1",
+  "topic": "Travel",
+  "difficulty": "Medium",
+  "instructions": "Click a square, read the clue, and type the answer. Click the same square again to switch between across and down.",
+  "content": {
+    "entries": [
+      {
+        "word": "passport",
+        "clue": "an official document that lets you travel to other countries"
+      },
+      {
+        "word": "luggage",
+        "clue": "the bags and suitcases you take on a trip"
+      },
+      {
+        "word": "ticket",
+        "clue": "a piece of paper or e-document that lets you travel"
+      },
+      {
+        "word": "delay",
+        "clue": "a situation in which something happens later than planned"
+      },
+      {
+        "word": "itinerary",
+        "clue": "a detailed plan of a journey"
+      },
+      {
+        "word": "souvenir",
+        "clue": "an object you buy to remember a place you visited"
+      },
+      {
+        "word": "customs",
+        "clue": "the place at a border where officials check your bags"
+      },
+      {
+        "word": "tourist",
+        "clue": "a person who travels for pleasure"
+      }
+    ],
+    "allowReveal": true
+  }
+}

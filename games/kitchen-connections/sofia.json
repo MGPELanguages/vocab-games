@@ -1,0 +1,54 @@
+{
+  "type": "connections",
+  "title": "Kitchen connections",
+  "description": "Sort 16 food words into four categories.",
+  "student": "Sofía",
+  "level": "A2",
+  "topic": "Food",
+  "difficulty": "Medium",
+  "instructions": "Find four groups of four words that share something in common. Select four words and press Submit.",
+  "content": {
+    "groups": [
+      {
+        "name": "Fruits",
+        "explanation": "Sweet foods that grow on trees or plants.",
+        "words": [
+          "apple",
+          "banana",
+          "grape",
+          "lemon"
+        ]
+      },
+      {
+        "name": "Vegetables",
+        "explanation": "Plants we eat, often cooked or in salads.",
+        "words": [
+          "carrot",
+          "onion",
+          "potato",
+          "spinach"
+        ]
+      },
+      {
+        "name": "Dairy products",
+        "explanation": "Foods made from milk.",
+        "words": [
+          "cheese",
+          "butter",
+          "yogurt",
+          "cream"
+        ]
+      },
+      {
+        "name": "Ways to cook",
+        "explanation": "Verbs that describe how we prepare food.",
+        "words": [
+          "bake",
+          "fry",
+          "boil",
+          "grill"
+        ]
+      }
+    ]
+  }
+}

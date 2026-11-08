@@ -1,0 +1,46 @@
+{
+  "type": "odd-one-out",
+  "title": "Odd one out: food & travel",
+  "description": "Find the word that does not belong in each group.",
+  "level": "A2",
+  "topic": "Mixed",
+  "difficulty": "Easy",
+  "instructions": "Each group has one word that does not belong. Choose it and press Check.",
+  "content": {
+    "groups": [
+      {
+        "words": [
+          "apple",
+          "banana",
+          "carrot",
+          "grape",
+          "lemon"
+        ],
+        "oddIndex": 2,
+        "explanation": "A carrot is a vegetable; the others are fruits."
+      },
+      {
+        "words": [
+          "bake",
+          "fry",
+          "boil",
+          "passport",
+          "grill"
+        ],
+        "oddIndex": 3,
+        "explanation": "A passport is a document; the others are ways to cook."
+      },
+      {
+        "words": [
+          "cheese",
+          "butter",
+          "yogurt",
+          "bread",
+          "cream"
+        ],
+        "oddIndex": 3,
+        "explanation": "Bread is made from flour; the others are dairy products."
+      }
+    ]
+  }
+}

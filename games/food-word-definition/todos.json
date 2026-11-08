@@ -1,0 +1,63 @@
+{
+  "type": "matching",
+  "title": "Food: word → definition",
+  "description": "Match eight food words with their definitions.",
+  "level": "A2",
+  "topic": "Food",
+  "difficulty": "Easy",
+  "instructions": "Tap a word on the left, then tap its match on the right.",
+  "content": {
+    "mode": "definition",
+    "pairsToShow": 0,
+    "pairs": [
+      {
+        "term": "apple",
+        "definition": "a round fruit with red, green or yellow skin",
+        "translation": "manzana",
+        "image": ""
+      },
+      {
+        "term": "banana",
+        "definition": "a long curved fruit with a yellow skin",
+        "translation": "banana",
+        "image": ""
+      },
+      {
+        "term": "carrot",
+        "definition": "a long orange vegetable that grows underground",
+        "translation": "zanahoria",
+        "image": ""
+      },
+      {
+        "term": "cheese",
+        "definition": "a food made from milk that can be soft or hard",
+        "translation": "queso",
+        "image": ""
+      },
+      {
+        "term": "bread",
+        "definition": "a baked food made from flour, water and yeast",
+        "translation": "pan",
+        "image": ""
+      },
+      {
+        "term": "chicken",
+        "definition": "a bird kept for its meat and eggs",
+        "translation": "pollo",
+        "image": ""
+      },
+      {
+        "term": "rice",
+        "definition": "small white or brown grains that are cooked and eaten",
+        "translation": "arroz",
+        "image": ""
+      },
+      {
+        "term": "tomato",
+        "definition": "a soft red fruit used in salads and sauces",
+        "translation": "tomate",
+        "image": ""
+      }
+    ]
+  }
+}

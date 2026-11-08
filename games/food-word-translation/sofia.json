@@ -1,0 +1,136 @@
+{
+  "type": "matching",
+  "title": "Food: word → translation",
+  "description": "Match English food words with their Spanish translation.",
+  "student": "Sofía",
+  "level": "A2",
+  "topic": "Food",
+  "difficulty": "Easy",
+  "instructions": "Tap a word on the left, then tap its match on the right.",
+  "content": {
+    "mode": "translation",
+    "pairsToShow": 6,
+    "pairs": [
+      {
+        "term": "apple",
+        "definition": "a round fruit with red, green or yellow skin",
+        "translation": "manzana",
+        "image": ""
+      },
+      {
+        "term": "banana",
+        "definition": "a long curved fruit with a yellow skin",
+        "translation": "banana",
+        "image": ""
+      },
+      {
+        "term": "carrot",
+        "definition": "a long orange vegetable that grows underground",
+        "translation": "zanahoria",
+        "image": ""
+      },
+      {
+        "term": "cheese",
+        "definition": "a food made from milk that can be soft or hard",
+        "translation": "queso",
+        "image": ""
+      },
+      {
+        "term": "bread",
+        "definition": "a baked food made from flour, water and yeast",
+        "translation": "pan",
+        "image": ""
+      },
+      {
+        "term": "chicken",
+        "definition": "a bird kept for its meat and eggs",
+        "translation": "pollo",
+        "image": ""
+      },
+      {
+        "term": "rice",
+        "definition": "small white or brown grains that are cooked and eaten",
+        "translation": "arroz",
+        "image": ""
+      },
+      {
+        "term": "tomato",
+        "definition": "a soft red fruit used in salads and sauces",
+        "translation": "tomate",
+        "image": ""
+      },
+      {
+        "term": "onion",
+        "definition": "a round vegetable with a strong smell that can make you cry",
+        "translation": "cebolla",
+        "image": ""
+      },
+      {
+        "term": "potato",
+        "definition": "a round vegetable that grows underground",
+        "translation": "papa",
+        "image": ""
+      },
+      {
+        "term": "butter",
+        "definition": "a soft yellow fat made from cream",
+        "translation": "manteca",
+        "image": ""
+      },
+      {
+        "term": "lemon",
+        "definition": "a sour yellow citrus fruit",
+        "translation": "limón",
+        "image": ""
+      },
+      {
+        "term": "grape",
+        "definition": "a small round fruit used to make wine",
+        "translation": "uva",
+        "image": ""
+      },
+      {
+        "term": "yogurt",
+        "definition": "a thick milk product, often sweet and fruity",
+        "translation": "yogur",
+        "image": ""
+      },
+      {
+        "term": "spinach",
+        "definition": "a vegetable with dark green leaves",
+        "translation": "espinaca",
+        "image": ""
+      },
+      {
+        "term": "cream",
+        "definition": "the thick liquid that rises to the top of milk",
+        "translation": "crema",
+        "image": ""
+      },
+      {
+        "term": "bake",
+        "definition": "to cook food in an oven",
+        "translation": "hornear",
+        "image": ""
+      },
+      {
+        "term": "fry",
+        "definition": "to cook food in hot oil",
+        "translation": "freír",
+        "image": ""
+      },
+      {
+        "term": "boil",
+        "definition": "to cook food in water that is bubbling",
+        "translation": "hervir",
+        "image": ""
+      },
+      {
+        "term": "grill",
+        "definition": "to cook food on a metal frame over a fire",
+        "translation": "asar a la parrilla",
+        "image": ""
+      }
+    ]
+  }
+}

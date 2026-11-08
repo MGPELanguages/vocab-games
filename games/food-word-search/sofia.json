@@ -1,0 +1,31 @@
+{
+  "type": "word-search",
+  "title": "Food word search",
+  "description": "Find ten food words hidden in the grid.",
+  "student": "Sofía",
+  "level": "A2",
+  "topic": "Food",
+  "difficulty": "Medium",
+  "instructions": "Find all the words hidden in the grid. Words can be written in different directions.",
+  "content": {
+    "words": [
+      "apple",
+      "banana",
+      "carrot",
+      "cheese",
+      "bread",
+      "chicken",
+      "rice",
+      "tomato",
+      "onion",
+      "lemon"
+    ],
+    "size": "medium",
+    "directions": {
+      "horizontal": true,
+      "vertical": true,
+      "diagonal": true,
+      "backwards": false
+    }
+  }
+}

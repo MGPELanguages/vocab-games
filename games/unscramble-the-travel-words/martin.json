@@ -1,0 +1,39 @@
+{
+  "type": "scramble",
+  "title": "Unscramble the travel words",
+  "description": "Rearrange the letters and use the definitions as hints.",
+  "student": "Martín",
+  "level": "B1",
+  "topic": "Travel",
+  "difficulty": "Medium",
+  "instructions": "Rearrange the letters to make a word. Use the hint if you need help.",
+  "content": {
+    "showHints": true,
+    "words": [
+      {
+        "word": "passport",
+        "hint": "an official document that lets you travel to other countries"
+      },
+      {
+        "word": "luggage",
+        "hint": "the bags and suitcases you take on a trip"
+      },
+      {
+        "word": "ticket",
+        "hint": "a piece of paper or e-document that lets you travel"
+      },
+      {
+        "word": "delay",
+        "hint": "a situation in which something happens later than planned"
+      },
+      {
+        "word": "souvenir",
+        "hint": "an object you buy to remember a place you visited"
+      },
+      {
+        "word": "tourist",
+        "hint": "a person who travels for pleasure"
+      }
+    ]
+  }
+}

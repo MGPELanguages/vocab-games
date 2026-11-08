@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Game editor (local)</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <div id="app"><p class="loading">Loading…</p></div>
+  <script>
+    /* LOCAL EDITOR. It only starts from a file on this computer or from localhost.
+       Online it does nothing, and the deploy workflow does not even publish this folder. */
+    (function () {
+      var local = location.protocol === 'file:' || /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+      if (!local) { document.getElementById('app').textContent = 'This editor only works on the owner’s computer.'; return; }
+      ['../js/lib/util.js', '../js/lib/ui.js', '../js/lib/wordsearch.js', '../js/lib/crossword.js', '../js/lib/router.js',
+        '../js/games/connections.js', '../js/games/matching.js', '../js/games/multiple-choice.js', '../js/games/fill-blanks.js',
+        '../js/games/scramble.js', '../js/games/odd-one-out.js', '../js/games/word-search.js', '../js/games/crossword.js',
+        '../js/pages/play.js',
+        'js/storage.js', 'js/export.js', 'js/seed.js', 'js/preview.js', 'js/library.js', 'js/editor.js', 'js/vocab.js', 'js/app.js'
+      ].forEach(function (src) { document.write('<script src="' + src + '"><\/script>'); });
+    })();
+  </script>
+</body>
+</html>

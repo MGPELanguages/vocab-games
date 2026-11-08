@@ -1,0 +1,112 @@
+{
+  "type": "multiple-choice",
+  "title": "Travel vocabulary quiz",
+  "description": "Which word matches the definition?",
+  "student": "Martín",
+  "level": "B1",
+  "topic": "Travel",
+  "difficulty": "Medium",
+  "instructions": "Read each question and choose the best answer.",
+  "content": {
+    "optionCount": 4,
+    "allowRetry": true,
+    "questions": [
+      {
+        "prompt": "Which word matches this definition? “an official document that lets you travel to other countries”",
+        "correct": "passport",
+        "wrong": [
+          "itinerary",
+          "reservation",
+          "delay",
+          "sightseeing",
+          "ticket"
+        ],
+        "explanation": "Example: Do not forget your passport at home."
+      },
+      {
+        "prompt": "Which word matches this definition? “the bags and suitcases you take on a trip”",
+        "correct": "luggage",
+        "wrong": [
+          "customs",
+          "passport",
+          "departure",
+          "itinerary",
+          "accommodation"
+        ],
+        "explanation": "Example: Our luggage was lost at the airport."
+      },
+      {
+        "prompt": "Which word matches this definition? “a piece of paper or e-document that lets you travel”",
+        "correct": "ticket",
+        "wrong": [
+          "sightseeing",
+          "accommodation",
+          "luggage",
+          "reservation",
+          "departure"
+        ],
+        "explanation": "Example: I booked a ticket to Madrid."
+      },
+      {
+        "prompt": "Which word matches this definition? “the act of leaving a place, especially on a journey”",
+        "correct": "departure",
+        "wrong": [
+          "delay",
+          "itinerary",
+          "souvenir",
+          "customs",
+          "accommodation"
+        ],
+        "explanation": "Example: The departure time is 7:30 a.m."
+      },
+      {
+        "prompt": "Which word matches this definition? “a situation in which something happens later than planned”",
+        "correct": "delay",
+        "wrong": [
+          "tourist",
+          "sightseeing",
+          "souvenir",
+          "customs",
+          "itinerary"
+        ],
+        "explanation": "Example: There was a two-hour delay because of the storm."
+      },
+      {
+        "prompt": "Which word matches this definition? “a detailed plan of a journey”",
+        "correct": "itinerary",
+        "wrong": [
+          "luggage",
+          "delay",
+          "reservation",
+          "departure",
+          "accommodation"
+        ],
+        "explanation": "Example: Our itinerary includes three cities."
+      },
+      {
+        "prompt": "Which word matches this definition? “a place to stay, such as a hotel or hostel”",
+        "correct": "accommodation",
+        "wrong": [
+          "customs",
+          "itinerary",
+          "ticket",
+          "tourist",
+          "departure"
+        ],
+        "explanation": "Example: We found cheap accommodation near the beach."
+      },
+      {
+        "prompt": "Which word matches this definition? “an object you buy to remember a place you visited”",
+        "correct": "souvenir",
+        "wrong": [
+          "luggage",
+          "accommodation",
+          "reservation",
+          "customs",
+          "delay"
+        ],
+        "explanation": "Example: I bought a small souvenir for my sister."
+      }
+    ]
+  }
+}

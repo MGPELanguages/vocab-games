@@ -1,0 +1,62 @@
+{
+  "type": "fill-blanks",
+  "title": "Complete the food sentences",
+  "description": "Type the missing food word; the hint is the definition.",
+  "student": "Sofía",
+  "level": "A2",
+  "topic": "Food",
+  "difficulty": "Medium",
+  "instructions": "Type the missing word in each sentence, then press Check.",
+  "content": {
+    "items": [
+      {
+        "sentence": "I eat an ___ every morning.",
+        "answer": "apple",
+        "alternatives": [],
+        "hint": "a round fruit with red, green or yellow skin"
+      },
+      {
+        "sentence": "She grated a ___ into the salad.",
+        "answer": "carrot",
+        "alternatives": [],
+        "hint": "a long orange vegetable that grows underground"
+      },
+      {
+        "sentence": "I'd like some ___ on my pasta.",
+        "answer": "cheese",
+        "alternatives": [],
+        "hint": "a food made from milk that can be soft or hard"
+      },
+      {
+        "sentence": "We bought fresh ___ at the bakery.",
+        "answer": "bread",
+        "alternatives": [],
+        "hint": "a baked food made from flour, water and yeast"
+      },
+      {
+        "sentence": "The ___ is in the oven.",
+        "answer": "chicken",
+        "alternatives": [],
+        "hint": "a bird kept for its meat and eggs"
+      },
+      {
+        "sentence": "___ goes well with beans.",
+        "answer": "rice",
+        "alternatives": [],
+        "hint": "small white or brown grains that are cooked and eaten"
+      },
+      {
+        "sentence": "Slice the ___ for the sandwich.",
+        "answer": "tomato",
+        "alternatives": [],
+        "hint": "a soft red fruit used in salads and sauces"
+      },
+      {
+        "sentence": "Chop the ___ finely.",
+        "answer": "onion",
+        "alternatives": [],
+        "hint": "a round vegetable with a strong smell that can make you cry"
+      }
+    ]
+  }
+}
