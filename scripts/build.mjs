@@ -89,5 +89,11 @@ fs.mkdirSync(path.join(out, 'index'), { recursive: true });
 const copy = (p) => { if (fs.existsSync(path.join(root, p))) fs.cpSync(path.join(root, p), path.join(out, p), { recursive: true }); };
 ['index.html', 'css', 'js', 'games'].forEach(copy);
 for (const [student, idx] of indexes) fs.writeFileSync(path.join(out, 'index', `${student}.json`), JSON.stringify(idx, null, 2));
+// Read-only overview for the teacher view (#/docente). "_all" can never collide with a student (slugs have no underscores).
+const allGames = [];
+for (const [student, items] of byStudent) for (const i of items) allGames.push({ game: i.game, file: student, student: student === 'todos' ? '' : (names.get(student) || student), path: i.file, type: i.g.type, title: i.g.title, description: i.g.description, level: i.g.level, topic: i.g.topic, difficulty: i.g.difficulty });
+allGames.sort((a, b) => typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type) || a.game.localeCompare(b.game) || a.file.localeCompare(b.file));
+const students = [...indexes.values()].map((i) => ({ slug: i.student, name: i.name, count: i.games.length })).sort((a, b) => a.name.localeCompare(b.name));
+fs.writeFileSync(path.join(out, 'index', '_all.json'), JSON.stringify({ students, games: allGames }, null, 2));
 fs.writeFileSync(path.join(out, '.nojekyll'), '');
 console.log(`✓ Site built in _site/ (${[...indexes.keys()].map((s) => '#/s/' + s).join('  ') || 'no students yet'})`);

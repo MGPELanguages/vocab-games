@@ -23,6 +23,8 @@
     return host;
   }
 
+  Object.assign(EVG, { getJson: getJson, notFound: notFound, asyncPage: asyncPage });
+
   EVG.pageHome = () => EVG.emptyState('Welcome to English Vocabulary Games', 'Open the personal link your teacher gave you to see your games.');
 
   EVG.pageStudentGames = function (slug) {

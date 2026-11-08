@@ -17,6 +17,12 @@ GUIA-PARA-IA.md                 formato de cada juego, para pegarle a una IA
 - Sopas de letras y crucigramas guardan solo las palabras; la grilla se genera al abrir, **al azar cada vez** (cada alumno e intento ve una distinta). El build prueba varias semillas para asegurar que siempre se pueda generar.
 - Si un JSON tiene errores, el workflow falla con el archivo y el motivo, y **no se publica nada**: el sitio anterior sigue funcionando.
 
+## Vista docente (solo lectura)
+
+`https://<usuario>.github.io/<repo>/#/docente` muestra todos los alumnos con su link (botón *Copy link*) y todos los juegos con la versión de cada alumno (botón *Try* para jugarlo). Filtra por alumno y por tipo de juego.
+
+Es de solo lectura: no hay ningún formulario ni forma de modificar datos. Pero **no tiene login**, y la dirección no está enlazada desde ningún lado: quien la conozca (o la adivine) ve la lista de todos los alumnos y sus links. No la compartas con los alumnos.
+
 ## Flujo de la profesora
 
 1. Pegarle `GUIA-PARA-IA.md` a una IA y pedir el juego para el alumno.
