@@ -1,0 +1,33 @@
+{
+  "type": "connections",
+  "title": "Mental images connections (A2)",
+  "description": "Sort 16 easy words about pictures in your mind into four groups.",
+  "student": "Pablo",
+  "level": "A2",
+  "topic": "Mental images",
+  "difficulty": "Easy",
+  "content": {
+    "groups": [
+      {
+        "name": "Things your mind does",
+        "explanation": "Verbs for what happens in your head.",
+        "words": ["imagine", "remember", "think", "dream"]
+      },
+      {
+        "name": "Parts of the body",
+        "explanation": "Parts of your body that help you see and think.",
+        "words": ["eye", "brain", "head", "ear"]
+      },
+      {
+        "name": "Describing a mental picture",
+        "explanation": "Words to say how your picture looks.",
+        "words": ["clear", "blurry", "strong", "colorful"]
+      },
+      {
+        "name": "Things you can look at",
+        "explanation": "Things made of images that you can see on a screen or paper.",
+        "words": ["picture", "photo", "movie", "diagram"]
+      }
+    ]
+  }
+}
