@@ -1,0 +1,33 @@
+{
+  "type": "connections",
+  "title": "Kitchen connections",
+  "description": "Sort 16 kitchen words into four groups.",
+  "student": "Juan",
+  "level": "C1",
+  "topic": "Kitchen",
+  "difficulty": "Hard",
+  "content": {
+    "groups": [
+      {
+        "name": "Cooking methods",
+        "explanation": "Ways of cooking food using heat and liquid or fat.",
+        "words": ["braise", "sauté", "poach", "blanch"]
+      },
+      {
+        "name": "Ways of cutting",
+        "explanation": "Specific techniques for cutting ingredients into particular shapes or sizes.",
+        "words": ["julienne", "dice", "mince", "chiffonade"]
+      },
+      {
+        "name": "Kitchen tools",
+        "explanation": "Utensils and equipment used to prepare or serve food.",
+        "words": ["whisk", "ladle", "colander", "zester"]
+      },
+      {
+        "name": "Taste and texture",
+        "explanation": "Adjectives used to describe how food tastes or feels in the mouth.",
+        "words": ["succulent", "pungent", "tangy", "crumbly"]
+      }
+    ]
+  }
+}
