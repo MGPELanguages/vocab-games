@@ -1,0 +1,26 @@
+{
+  "type": "crossword",
+  "title": "Mental images crossword",
+  "description": "Use the clues to find the words from today's class.",
+  "student": "Pablo",
+  "level": "B1",
+  "topic": "Mental images and aphantasia",
+  "difficulty": "Medium",
+  "content": {
+    "allowReveal": true,
+    "entries": [
+      { "word": "aphantasia", "clue": "Not being able to create pictures in your mind." },
+      { "word": "hyperphantasia", "clue": "Having extremely strong, detailed pictures in your mind." },
+      { "word": "visualize", "clue": "To form a picture of something in your mind." },
+      { "word": "imagine", "clue": "To create an idea or a picture in your mind." },
+      { "word": "imagery", "clue": "The pictures that you create in your mind (mental ___)." },
+      { "word": "vivid", "clue": "Very clear and full of detail." },
+      { "word": "spectrum", "clue": "A range of possibilities between two extremes." },
+      { "word": "measure", "clue": "To find the size or the amount of something." },
+      { "word": "objectively", "clue": "Based on facts, not on personal opinion." },
+      { "word": "pupil", "clue": "The black circle in the center of the eye." },
+      { "word": "gene", "clue": "A part of a cell that passes characteristics from parents to children." },
+      { "word": "influence", "clue": "To have an effect on someone or something." }
+    ]
+  }
+}
