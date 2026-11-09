@@ -1,0 +1,26 @@
+{
+  "type": "crossword",
+  "title": "Accounting crossword",
+  "description": "Use the clues to find the accounting words.",
+  "student": "Anto",
+  "level": "A2",
+  "topic": "Accounting",
+  "difficulty": "Easy",
+  "content": {
+    "allowReveal": true,
+    "entries": [
+      { "word": "accountant", "clue": "A person whose job is to work with money records and taxes." },
+      { "word": "auditor", "clue": "A person who checks the accounts of a company." },
+      { "word": "invoice", "clue": "A document that asks a client to pay for something." },
+      { "word": "receipt", "clue": "A paper that shows you paid for something." },
+      { "word": "contract", "clue": "A written agreement between two people or companies." },
+      { "word": "revenue", "clue": "All the money a company receives from sales." },
+      { "word": "expenses", "clue": "The money a company spends." },
+      { "word": "profit", "clue": "The money left after you pay all the costs." },
+      { "word": "budget", "clue": "A plan for how much money you can spend." },
+      { "word": "salary", "clue": "The money you get every month for your job." },
+      { "word": "tax", "clue": "Money you pay to the government." },
+      { "word": "cash", "clue": "Money in coins and notes, not a card." }
+    ]
+  }
+}
