@@ -1,0 +1,17 @@
+{
+  "type": "connections",
+  "title": "Accounting connections",
+  "description": "Sort 16 accounting words into four groups.",
+  "student": "Anto",
+  "level": "A2",
+  "topic": "Accounting",
+  "difficulty": "Easy",
+  "content": {
+    "groups": [
+      { "name": "People", "explanation": "People who work in accounting or work with an accountant.", "words": ["accountant", "bookkeeper", "auditor", "client"] },
+      { "name": "Documents", "explanation": "Papers or files you read, write or keep.", "words": ["invoice", "receipt", "contract", "report"] },
+      { "name": "Company results", "explanation": "Money numbers that show how a company is doing.", "words": ["revenue", "expenses", "profit", "budget"] },
+      { "name": "Money and payments", "explanation": "Words about paying and receiving money.", "words": ["payment", "cash", "tax", "salary"] }
+    ]
+  }
+}
