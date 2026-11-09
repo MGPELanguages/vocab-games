@@ -1,0 +1,33 @@
+{
+  "type": "connections",
+  "title": "Mental images connections",
+  "description": "Sort 16 words and phrases from today's class into four groups.",
+  "student": "Pablo",
+  "level": "B1",
+  "topic": "Mental images and aphantasia",
+  "difficulty": "Medium",
+  "content": {
+    "groups": [
+      {
+        "name": "Pictures in your mind",
+        "explanation": "Words about creating and having pictures in your head.",
+        "words": ["visualize", "imagine", "imagery", "inner world"]
+      },
+      {
+        "name": "Strong, weak or missing images",
+        "explanation": "Words to talk about how clear (or not) your mental pictures are.",
+        "words": ["aphantasia", "hyperphantasia", "vivid", "spectrum"]
+      },
+      {
+        "name": "Eyes, brain and genes",
+        "explanation": "Words about the body and where our characteristics come from.",
+        "words": ["pupil", "constrict", "gene", "brain injury"]
+      },
+      {
+        "name": "How scientists study the mind",
+        "explanation": "Words about studying, testing and comparing how people think.",
+        "words": ["measure", "objectively", "influence", "brain imaging"]
+      }
+    ]
+  }
+}
