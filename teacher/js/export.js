@@ -38,23 +38,21 @@
 
   EVG.exportGame = function (game) {
     const json = JSON.stringify(EVG.toPublicGame(game), null, 2) + '\n';
-    const folder = h('input', { class: 'input', value: EVG.slugify(game.title) || 'new-game', 'aria-label': 'Game folder' });
-    const file = h('input', { class: 'input', value: EVG.slugify(game.student) || 'todos', 'aria-label': 'Student file' });
+    const file = h('input', { class: 'input', value: (EVG.slugify(game.student) || 'todos') + '_1', 'aria-label': 'File name' });
     const pathEl = h('code', null); const linkEl = h('code', null);
+    const name = () => (EVG.slugify(file.value.replace(/\.json$/i, '').replace(/_/g, ' ')) ? file.value.replace(/\.json$/i, '').toLowerCase().replace(/[^a-z0-9_-]+/g, '-') : 'todos_1');
     const draw = () => {
-      const f = EVG.slugify(folder.value) || 'new-game', s = EVG.slugify(file.value) || 'todos';
-      pathEl.textContent = 'games/' + f + '/' + s + '.json'; linkEl.textContent = s === 'todos' ? 'every student (file “todos”)' : 'index.html#/s/' + s;
+      const f = name(); const s = f.split('_')[0];
+      pathEl.textContent = 'games/' + game.type + '/' + f + '.json'; linkEl.textContent = s === 'todos' ? 'every student' : 'index.html#/s/' + s;
     };
-    folder.addEventListener('input', draw); file.addEventListener('input', draw); draw();
+    file.addEventListener('input', draw); draw();
     const m = EVG.modal({ title: 'Export game as JSON', wide: true, body: h('div', { class: 'stack' },
-      h('p', { class: 'muted' }, 'Save the file inside the repository folder shown below, commit it, and the game appears on the student’s page after the next deploy.'),
-      h('div', { class: 'grid grid-2' },
-        EVG.field('Game folder', folder, 'One folder per game; each student has a file inside.'),
-        EVG.field('Student file', file, 'Use “todos” for a game every student should see.')),
+      h('p', { class: 'muted' }, 'Save the file in the repository folder shown below and commit it. The game appears on the student’s page after the next deploy. The topic (“' + (game.topic || 'none') + '”) is how it is grouped for the student.'),
+      EVG.field('File name', file, 'student_number, e.g. sofia_1, sofia_2… Use todos_1 for a game every student should see. No accents or spaces.'),
       h('p', null, 'Path: ', pathEl), h('p', null, 'Appears for: ', linkEl),
       h('textarea', { class: 'input mono', rows: 10, readOnly: true, value: json, 'aria-label': 'Game JSON' }),
       h('div', { class: 'row end' },
         EVG.button('ghost', 'copy', 'Copy JSON', async () => EVG.toast((await EVG.copyText(json)) ? 'JSON copied' : 'Could not copy', 'info')),
-        EVG.button('primary', 'download', 'Download file', () => { EVG.downloadText((EVG.slugify(file.value) || 'todos') + '.json', json); m.close(); }))) });
+        EVG.button('primary', 'download', 'Download file', () => { EVG.downloadText(name() + '.json', json); m.close(); }))) });
   };
 })();

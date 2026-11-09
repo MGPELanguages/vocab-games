@@ -8,6 +8,9 @@
   const EVG = window.EVG;
 
   EVG.SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+  // game file name: <student>_<n>  (e.g. sofia_1, sofia_2, todos_1); the "_n" part is optional
+  EVG.FILE_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*(?:_[a-z0-9]+(?:-[a-z0-9]+)*)?$/;
+  EVG.studentOfFile = (file) => file.split('_')[0];
 
   function seedFrom(str) {            // xmur3 hash → mulberry32 generator
     let h = 1779033703 ^ str.length;
@@ -81,8 +84,9 @@
   EVG.prepareGame = function (raw, key, opts) {
     const seedKey = opts && opts.random ? key + '#' + Math.random() : (opts && opts.seed) || key;
     if (!isObj(raw)) return { errors: ['The file must contain one JSON object ({ ... }).'] };
-    const def = EVG.games[raw.type];
-    if (!def) return { errors: ['Unknown "type": ' + JSON.stringify(raw.type) + '. Valid types: ' + EVG.GAME_TYPES.join(', ') + '.'] };
+    const type = raw.type || (opts && opts.type);     // the folder (games/<type>/) is the default type
+    const def = EVG.games[type];
+    if (!def) return { errors: ['Unknown "type": ' + JSON.stringify(type) + '. Valid types: ' + EVG.GAME_TYPES.join(', ') + '.'] };
     const errors = [];
     const title = str(raw.title).trim(); if (!title) errors.push('Missing "title".');
     const level = str(raw.level).trim().toUpperCase() || 'A2'; if (EVG.LEVELS.indexOf(level) < 0) errors.push('"level" must be one of ' + EVG.LEVELS.join(', ') + '.');
@@ -92,20 +96,20 @@
     const content = EVG.clone(raw.content);
     let problems;
     try {
-      problems = normalize(raw.type, content);
-      if (raw.type === 'word-search' && !problems.length) {
+      problems = normalize(type, content);
+      if (type === 'word-search' && !problems.length) {
         const r = EVG.generateWordSearch(content.words, content.size, content.directions, difficulty, seedFrom(seedKey));
         if (!r.ok) problems = problems.concat(r.errors); else { content.grid = r.grid; content.placements = r.placements; }
-      } else if (raw.type === 'crossword' && !problems.length) {
+      } else if (type === 'crossword' && !problems.length) {
         const r = EVG.generateCrossword(content.entries, seedFrom(seedKey));
         if (!r.ok) problems = problems.concat(r.errors); else content.layout = r.layout;
       }
       if (!problems.length) problems = def.validate(content);
-    } catch (e) { problems = ['The "content" does not have the right shape for a ' + raw.type + ' game (' + e.message + ').']; }
+    } catch (e) { problems = ['The "content" does not have the right shape for a ' + type + ' game (' + e.message + ').']; }
     errors.push.apply(errors, problems);
     if (errors.length) return { errors: errors };
 
-    return { game: { id: key, type: raw.type, title: title, description: str(raw.description), student: str(raw.student), topic: str(raw.topic),
+    return { game: { id: key, type: type, title: title, description: str(raw.description), student: str(raw.student), topic: str(raw.topic),
       level: level, difficulty: difficulty, instructions: str(raw.instructions).trim() || def.defaultInstructions, content: content } };
   };
 })();

@@ -32,12 +32,22 @@
       if (!SLUG.test(slug)) return notFound();
       const idx = await getJson('index/' + slug + '.json');
       document.title = idx.name + ' · English Vocabulary Games';
-      const types = EVG.GAME_TYPES.filter((t) => idx.games.some((g) => g.type === t));
+      const topics = Array.from(new Set(idx.games.map((g) => g.topic).filter(Boolean))).sort();
+      let topic = '';
+      const listHost = h('div', { class: 'stack lg' }); const filterHost = h('div', { class: 'row wrap tight' });
+      function draw() {
+        const games = idx.games.filter((g) => !topic || g.topic === topic);
+        const types = EVG.GAME_TYPES.filter((t) => games.some((g) => g.type === t));
+        EVG.replace(filterHost, topics.length < 2 ? null : [['', 'All topics']].concat(topics.map((t) => [t, t])).map((o) =>
+          h('button', { type: 'button', class: 'pill' + (topic === o[0] ? ' active' : ''), 'aria-pressed': String(topic === o[0]), onclick: () => { topic = o[0]; draw(); } }, o[1])));
+        EVG.replace(listHost, types.map((t) => h('section', { class: 'stack' },
+          h('div', null, h('h2', null, EVG.games[t].label), h('p', { class: 'muted small' }, EVG.games[t].blurb)),
+          h('div', { class: 'grid grid-3' }, games.filter((g) => g.type === t).map((g) => card(slug, g, EVG.GAME_TYPES.indexOf(t)))))));
+      }
+      draw();
       return h('div', { class: 'stack lg' },
         h('div', null, h('h1', { class: 'page-title' }, 'Hi, ' + idx.name + '!'), h('p', { class: 'muted' }, 'Choose a game to play.')),
-        types.map((t) => h('section', { class: 'stack' },
-          h('div', null, h('h2', null, EVG.games[t].label), h('p', { class: 'muted small' }, EVG.games[t].blurb)),
-          h('div', { class: 'grid grid-3' }, idx.games.filter((g) => g.type === t).map((g) => card(slug, g, EVG.GAME_TYPES.indexOf(t)))))));
+        filterHost, listHost);
     });
   };
 
@@ -47,18 +57,17 @@
       h('div', { class: 'card-body stack tight' },
         h('h3', null, g.title), g.description ? h('p', { class: 'muted clamp2' }, g.description) : null,
         g.topic ? h('div', { class: 'row wrap tight' }, h('span', { class: 'chip' }, g.topic)) : null,
-        h('div', { class: 'row wrap card-actions' }, h('a', { class: 'btn btn-primary sm', href: '#/s/' + slug + '/' + g.game }, EVG.icon('play', 16), h('span', null, 'Play')))));
+        h('div', { class: 'row wrap card-actions' }, h('a', { class: 'btn btn-primary sm', href: '#/s/' + slug + '/' + g.type + '/' + g.file }, EVG.icon('play', 16), h('span', null, 'Play')))));
   }
 
-  EVG.pageStudentGame = function (slug, gameSlug) {
+  EVG.pageStudentGame = function (slug, type, file) {
     return asyncPage(async () => {
-      if (!SLUG.test(slug) || !SLUG.test(gameSlug)) return notFound();
+      if (!SLUG.test(slug) || !EVG.games[type] || !EVG.FILE_RE.test(file)) return notFound();
       const idx = await getJson('index/' + slug + '.json');
-      const entry = idx.games.find((g) => g.game === gameSlug);
+      const entry = idx.games.find((g) => g.type === type && g.file === file);
       if (!entry) return notFound();
-      const raw = await getJson(entry.path);
-      const r = EVG.prepareGame(raw, entry.path, { random: true });
-      if (r.error || !r.game) return EVG.emptyState('This game can’t be opened right now', 'Please tell your teacher.');
+      const r = EVG.prepareGame(await getJson(entry.path), entry.path, { random: true, type: type });
+      if (!r.game) return EVG.emptyState('This game can’t be opened right now', 'Please tell your teacher.');
       document.title = r.game.title + ' · English Vocabulary Games';
       return h('div', null,
         h('div', { class: 'mb' }, h('a', { class: 'btn btn-ghost', href: '#/s/' + slug }, EVG.icon('back', 16), h('span', null, 'All games'))),

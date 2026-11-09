@@ -6,9 +6,9 @@
   function page(route) {
     let m;
     if ((m = EVG.matchRoute(route, '/s/:student'))) return EVG.pageStudentGames(m.student);
-    if ((m = EVG.matchRoute(route, '/s/:student/:game'))) return EVG.pageStudentGame(m.student, m.game);
+    if ((m = EVG.matchRoute(route, '/s/:student/:type/:file'))) return EVG.pageStudentGame(m.student, m.type, m.file);
     if (route === '/docente') return EVG.pageOverview();
-    if ((m = EVG.matchRoute(route, '/docente/play/:game/:file'))) return EVG.pageOverviewPlay(m.game, m.file);
+    if ((m = EVG.matchRoute(route, '/docente/play/:type/:file'))) return EVG.pageOverviewPlay(m.type, m.file);
     if (route === '/') return EVG.pageHome();
     return EVG.emptyState('We couldn’t find that page', 'Check the link your teacher sent you.');
   }
@@ -17,7 +17,7 @@
     const route = EVG.currentRoute();
     const teacher = route.indexOf('/docente') === 0;
     const home = (m) => (teacher ? '#/docente' : m ? '#/s/' + m.student : '#/');
-    const m = EVG.matchRoute(route, '/s/:student') || EVG.matchRoute(route, '/s/:student/:game');
+    const m = EVG.matchRoute(route, '/s/:student') || EVG.matchRoute(route, '/s/:student/:type/:file');
     document.title = 'English Vocabulary Games';
     EVG.replace(document.getElementById('app'), h('div', { class: 'shell student' },
       h('header', { class: 'app-header' }, h('div', { class: 'container header-inner' },

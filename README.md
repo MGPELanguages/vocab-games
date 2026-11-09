@@ -5,7 +5,7 @@ Sitio estático (GitHub Pages) con juegos de vocabulario en inglés para los alu
 ## Cómo funciona
 
 ```
-games/<juego>/<alumno>.json     un juego por carpeta, un archivo por alumno ("todos.json" = para todos)
+games/<tipo>/<alumno>_<n>.json  carpeta = tipo de juego (connections, crossword…); ej. sofia_1.json, sofia_2.json; todos_1.json = para todos
 index.html + js/ + css/         sitio de los alumnos (solo lectura, sin ningún código de edición)
 scripts/build.mjs               valida todos los JSON y genera index/<alumno>.json
 .github/workflows/deploy.yml    en cada push: valida → si todo está bien, publica
@@ -13,20 +13,20 @@ teacher/                        editor LOCAL (nunca se publica)
 GUIA-PARA-IA.md                 formato de cada juego, para pegarle a una IA
 ```
 
-- Cada alumno tiene su link: `https://<usuario>.github.io/<repo>/#/s/<alumno>` (ej. `#/s/sofia`). Ve **solo sus juegos**, agrupados por categoría (tipo de juego). La portada no lista nada.
+- Cada alumno tiene su link: `https://<usuario>.github.io/<repo>/#/s/<alumno>` (ej. `#/s/sofia`). Ve **solo sus juegos**, agrupados por tipo de juego, con un filtro por tema (el campo `topic` de cada JSON). La portada no lista nada.
 - Sopas de letras y crucigramas guardan solo las palabras; la grilla se genera al abrir, **al azar cada vez** (cada alumno e intento ve una distinta). El build prueba varias semillas para asegurar que siempre se pueda generar.
 - Si un JSON tiene errores, el workflow falla con el archivo y el motivo, y **no se publica nada**: el sitio anterior sigue funcionando.
 
 ## Vista docente (solo lectura)
 
-`https://<usuario>.github.io/<repo>/#/docente` muestra todos los alumnos con su link (botón *Copy link*) y todos los juegos con la versión de cada alumno (botón *Try* para jugarlo). Filtra por alumno y por tipo de juego.
+`https://<usuario>.github.io/<repo>/#/docente` muestra todos los alumnos con su link (botón *Copy link*) y todos los archivos de juego (botón *Try* para jugarlo, *Copy link* para el link directo). Filtra por alumno, tipo de juego y tema.
 
 Es de solo lectura: no hay ningún formulario ni forma de modificar datos. Pero **no tiene login**, y la dirección no está enlazada desde ningún lado: quien la conozca (o la adivine) ve la lista de todos los alumnos y sus links. No la compartas con los alumnos.
 
 ## Flujo de la profesora
 
 1. Pegarle `GUIA-PARA-IA.md` a una IA y pedir el juego para el alumno.
-2. En GitHub: *Add file → Create new file*, escribir la ruta `games/<juego>/<alumno>.json`, pegar el JSON y *Commit*.
+2. En GitHub: *Add file → Create new file*, escribir la ruta `games/<tipo>/<alumno>_<n>.json`, pegar el JSON y *Commit*.
 3. En 1–2 minutos aparece en el link del alumno. Si falla, en la pestaña *Actions* se ve el error para pegárselo a la IA.
 
 ## Configuración inicial (una vez)
@@ -45,14 +45,14 @@ preview.bat                        validar, construir y servir en http://localho
 
 ## Editor local (solo para vos)
 
-Abrí `teacher/index.html` con doble clic (o desde localhost). Es el creador de juegos de siempre (biblioteca, banco de vocabulario, editor, vista previa) y guarda en el navegador de esa computadora. Para publicar un juego: botón **Export**, que copia o descarga el JSON y te dice en qué ruta guardarlo.
+Abrí `teacher/index.html` con doble clic (o desde localhost). Es el creador de juegos de siempre (biblioteca, banco de vocabulario, editor, vista previa) y guarda en el navegador de esa computadora. Para publicar un juego: botón **Export**, que copia o descarga el JSON y te dice en qué ruta guardarlo (`games/<tipo>/<alumno>_<n>.json`).
 
 No se puede editar online por tres motivos: el sitio publicado no incluye ningún código de edición; `teacher/` no se copia al sitio (el build solo publica `index.html`, `css/`, `js/`, `games/` e `index/`); y aunque alguien abriera esa página online, `teacher/index.html` se niega a cargar fuera de `file://` o `localhost`.
 
 ## Límites a tener en cuenta
 
 - Todo lo que está en el sitio es público: los JSON (con las respuestas) se pueden ver desde el navegador, y quien conozca el link de otro alumno puede abrirlo. Usá solo nombres de pila o alias.
-- Un juego en `todos.json` solo aparece a alumnos que tengan al menos un archivo propio en algún juego.
+- Los archivos `todos_n.json` aparecen para todos los alumnos que tengan al menos un archivo propio.
 - Los juegos de ejemplo de `games/` (Sofía y Martín) se pueden borrar.
 
 ## Agregar un tipo de juego nuevo

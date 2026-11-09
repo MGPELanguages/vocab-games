@@ -7,14 +7,14 @@ Pegale a la IA **todo este archivo** y después pedile, por ejemplo:
 La IA tiene que devolver **un solo archivo JSON**. Guardalo en:
 
 ```
-games/<carpeta-del-juego>/<alumno>.json
+games/<tipo-de-juego>/<alumno>_<número>.json
 ```
 
-- `<carpeta-del-juego>`: una carpeta por juego, en minúsculas y con guiones. Ej: `ropa-connections`.
-- `<alumno>`: el nombre del alumno en minúsculas, **sin tildes ni espacios**. Ej: `sofia.json`, `martin.json`.
-- Si el mismo juego es para varios alumnos con contenido distinto, ponés un archivo por alumno en la misma carpeta.
-- Si querés un juego para **todos** los alumnos, el archivo se llama `todos.json`. (Si además existe el archivo de un alumno en esa carpeta, el del alumno tiene prioridad.)
-- El link de cada alumno es `…/#/s/<alumno>` (ej: `#/s/sofia`). El juego aparece solo, dentro de su categoría.
+- `<tipo-de-juego>`: la carpeta es **el tipo de juego**: `connections`, `matching`, `multiple-choice`, `fill-blanks`, `scramble`, `odd-one-out`, `word-search` o `crossword`. Ya existen; no se inventan carpetas nuevas.
+- `<alumno>_<número>`: el alumno en minúsculas, **sin tildes ni espacios**, un guion bajo y un número. Ej: `sofia_1.json`, `sofia_2.json`, `martin_1.json`. Un alumno puede tener **todos los archivos que quiera** en la misma carpeta (por ejemplo, varios *connections* con distintas palabras o temas): solo cambia el número.
+- Para un juego que deben ver **todos** los alumnos: `todos_1.json`, `todos_2.json`…
+- El link de cada alumno es `…/#/s/<alumno>` (ej: `#/s/sofia`). Cada juego aparece solo, dentro de su tipo de juego.
+- **La categoría del juego va dentro del JSON**, en el campo `topic` (ej. `"Food"`, `"Travel"`). Al alumno se le muestra un filtro por tema. Usá siempre el mismo nombre para el mismo tema (`"Food"`, no `"food"` y `"Foods"` en otros archivos).
 
 Al subir el archivo a GitHub, una validación automática revisa todo. Si hay un error, **no se publica nada** y GitHub muestra qué archivo y qué falló: se lo pegás a la IA y lo corrige.
 
@@ -43,9 +43,9 @@ Al subir el archivo a GitHub, una validación automática revisa todo. Si hay un
 }
 ```
 
-- `type` (obligatorio): `connections`, `matching`, `multiple-choice`, `fill-blanks`, `scramble`, `odd-one-out`, `word-search` o `crossword`.
+- `type` (opcional; si falta se usa el de la carpeta, y si está tiene que coincidir con la carpeta): `connections`, `matching`, `multiple-choice`, `fill-blanks`, `scramble`, `odd-one-out`, `word-search` o `crossword`.
 - `title` (obligatorio) · `level` (obligatorio): `A1` `A2` `B1` `B2` `C1` `C2` · `difficulty`: `Easy` `Medium` `Hard`.
-- `description`, `student`, `topic`, `instructions`: opcionales.
+- `topic` (la categoría/tema, recomendado), `description`, `student` (nombre para mostrar), `instructions`: opcionales.
 - `content`: depende del tipo (abajo).
 
 ## `content` por tipo
