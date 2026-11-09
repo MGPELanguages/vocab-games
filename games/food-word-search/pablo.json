@@ -1,0 +1,14 @@
+{
+  "type": "word-search",
+  "title": "Mental images word search",
+  "description": "Find the words from today's class about mental images and aphantasia.",
+  "student": "Pablo",
+  "level": "B1",
+  "topic": "Mental images and aphantasia",
+  "difficulty": "Medium",
+  "content": {
+    "size": "large",
+    "directions": { "horizontal": true, "vertical": true, "diagonal": true, "backwards": false },
+    "words": ["aphantasia", "hyperphantasia", "visualize", "imagine", "imagery", "vivid", "spectrum", "pupil", "constrict", "objectively", "influence", "gene", "measure"]
+  }
+}
