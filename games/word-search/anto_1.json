@@ -1,0 +1,14 @@
+{
+  "type": "word-search",
+  "title": "Accounting word search",
+  "description": "Find 12 accounting words in the grid.",
+  "student": "Anto",
+  "level": "A2",
+  "topic": "Accounting",
+  "difficulty": "Easy",
+  "content": {
+    "size": "large",
+    "directions": { "horizontal": true, "vertical": true, "diagonal": false, "backwards": false },
+    "words": ["accountant", "bookkeeper", "auditor", "invoice", "receipt", "contract", "revenue", "expenses", "profit", "budget", "salary", "payment"]
+  }
+}
