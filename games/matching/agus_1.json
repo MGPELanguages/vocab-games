@@ -1,0 +1,87 @@
+{
+  "type": "matching",
+  "title": "Pharma vocabulary: English and Spanish",
+  "description": "Match each English word with its Spanish translation.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "mode": "translation",
+    "pairsToShow": 8,
+    "pairs": [
+      {
+        "term": "prescription",
+        "translation": "receta"
+      },
+      {
+        "term": "patent",
+        "translation": "patente"
+      },
+      {
+        "term": "dose",
+        "translation": "dosis"
+      },
+      {
+        "term": "supply chain",
+        "translation": "cadena de suministro"
+      },
+      {
+        "term": "to afford",
+        "translation": "poder pagar"
+      },
+      {
+        "term": "insurer",
+        "translation": "aseguradora"
+      },
+      {
+        "term": "painkiller",
+        "translation": "analgésico"
+      },
+      {
+        "term": "fever",
+        "translation": "fiebre"
+      },
+      {
+        "term": "inflammation",
+        "translation": "inflamación"
+      },
+      {
+        "term": "willow bark",
+        "translation": "corteza de sauce"
+      },
+      {
+        "term": "to extract",
+        "translation": "extraer"
+      },
+      {
+        "term": "to isolate",
+        "translation": "aislar"
+      },
+      {
+        "term": "to synthesize",
+        "translation": "sintetizar"
+      },
+      {
+        "term": "side effect",
+        "translation": "efecto secundario"
+      },
+      {
+        "term": "blood clot",
+        "translation": "coágulo"
+      },
+      {
+        "term": "clinical trial",
+        "translation": "ensayo clínico"
+      },
+      {
+        "term": "enzyme",
+        "translation": "enzima"
+      },
+      {
+        "term": "to inhibit",
+        "translation": "inhibir"
+      }
+    ]
+  }
+}
