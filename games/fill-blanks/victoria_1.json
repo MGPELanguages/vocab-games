@@ -1,0 +1,56 @@
+{
+  "type": "fill-blanks",
+  "title": "Complete the shop sentences",
+  "description": "Write the missing word.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "items": [
+      {
+        "sentence": "Good ___! Welcome.",
+        "answer": "morning",
+        "hint": "It is 9:00 a.m."
+      },
+      {
+        "sentence": "Can I ___ you?",
+        "answer": "help",
+        "hint": "Customer service."
+      },
+      {
+        "sentence": "I ___ in a jewelry store.",
+        "answer": "work",
+        "hint": "Your job."
+      },
+      {
+        "sentence": "I'm ___ Mexico.",
+        "answer": "from",
+        "hint": "Where are you from?"
+      },
+      {
+        "sentence": "You wear a ___ on your finger.",
+        "answer": "ring",
+        "hint": "Jewelry."
+      },
+      {
+        "sentence": "Today is Monday. Tomorrow is ___.",
+        "answer": "Tuesday",
+        "hint": "Days of the week."
+      },
+      {
+        "sentence": "Thank you. ___, have a nice day.",
+        "answer": "Goodbye",
+        "alternatives": [
+          "Bye"
+        ],
+        "hint": "The end of the conversation."
+      },
+      {
+        "sentence": "___ you repeat that, please?",
+        "answer": "Can",
+        "hint": "A polite question."
+      }
+    ]
+  }
+}
