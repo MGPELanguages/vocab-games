@@ -1,0 +1,46 @@
+{
+  "type": "scramble",
+  "title": "Unscramble the jewelry words",
+  "description": "Put the letters in the correct order.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "showHints": true,
+    "words": [
+      {
+        "word": "necklace",
+        "hint": "You wear it around your neck."
+      },
+      {
+        "word": "bracelet",
+        "hint": "You wear it on your wrist."
+      },
+      {
+        "word": "earrings",
+        "hint": "You wear them on your ears."
+      },
+      {
+        "word": "diamond",
+        "hint": "A very expensive clear stone."
+      },
+      {
+        "word": "silver",
+        "hint": "A white metal. It is not gold."
+      },
+      {
+        "word": "customer",
+        "hint": "A person who buys things in a store."
+      },
+      {
+        "word": "welcome",
+        "hint": "You say it when a customer comes in."
+      },
+      {
+        "word": "goodbye",
+        "hint": "You say it when a customer leaves."
+      }
+    ]
+  }
+}
