@@ -1,0 +1,62 @@
+{
+  "type": "crossword",
+  "title": "Pharma crossword",
+  "description": "Use the clues to find the words from our classes.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "allowReveal": true,
+    "entries": [
+      {
+        "word": "prescription",
+        "clue": "A written order from a doctor that lets you get a medicine."
+      },
+      {
+        "word": "insulin",
+        "clue": "A hormone, also a medicine, that controls the sugar in your blood."
+      },
+      {
+        "word": "patent",
+        "clue": "A legal right that stops other companies from making your invention."
+      },
+      {
+        "word": "generic",
+        "clue": "A ___ drug has the same active ingredient as a brand-name drug but costs less."
+      },
+      {
+        "word": "wholesaler",
+        "clue": "A company that buys large quantities from manufacturers and sells to pharmacies."
+      },
+      {
+        "word": "insurer",
+        "clue": "A company that pays part of your medical costs."
+      },
+      {
+        "word": "painkiller",
+        "clue": "A medicine that reduces pain."
+      },
+      {
+        "word": "fever",
+        "clue": "A body temperature that is higher than normal."
+      },
+      {
+        "word": "inflammation",
+        "clue": "Swelling, redness and pain in a part of the body."
+      },
+      {
+        "word": "enzyme",
+        "clue": "A protein that speeds up chemical reactions in the body."
+      },
+      {
+        "word": "compound",
+        "clue": "A substance made of two or more elements chemically combined."
+      },
+      {
+        "word": "extract",
+        "clue": "To take something out of a material, often using a solvent."
+      }
+    ]
+  }
+}
