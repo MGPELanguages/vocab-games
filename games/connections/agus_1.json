@@ -1,0 +1,53 @@
+{
+  "type": "connections",
+  "title": "Medicine prices connections",
+  "description": "Sort 16 words from the video on medicine prices into four groups.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "groups": [
+      {
+        "name": "Medicine and the patient",
+        "explanation": "Words about the medicine itself and how it is used.",
+        "words": [
+          "prescription",
+          "dose",
+          "vial",
+          "insulin"
+        ]
+      },
+      {
+        "name": "Who is in the chain",
+        "explanation": "Companies that make, move or pay for medicines.",
+        "words": [
+          "manufacturer",
+          "wholesaler",
+          "intermediary",
+          "insurer"
+        ]
+      },
+      {
+        "name": "Paying for medicines",
+        "explanation": "Words about prices and who pays.",
+        "words": [
+          "list price",
+          "out-of-pocket",
+          "afford",
+          "subsidize"
+        ]
+      },
+      {
+        "name": "Patents and brands",
+        "explanation": "Words about who can make a medicine and under what name.",
+        "words": [
+          "patent",
+          "expire",
+          "generic drug",
+          "brand-name drug"
+        ]
+      }
+    ]
+  }
+}
