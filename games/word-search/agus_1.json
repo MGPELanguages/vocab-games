@@ -1,0 +1,34 @@
+{
+  "type": "word-search",
+  "title": "Pharma word search",
+  "description": "Find the words from our first classes in the grid.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "size": "large",
+    "directions": {
+      "horizontal": true,
+      "vertical": true,
+      "diagonal": true,
+      "backwards": false
+    },
+    "words": [
+      "prescription",
+      "wholesaler",
+      "insulin",
+      "patent",
+      "insurer",
+      "generic",
+      "painkiller",
+      "inflammation",
+      "enzyme",
+      "compound",
+      "extract",
+      "isolate",
+      "synthesize",
+      "afford"
+    ]
+  }
+}
