@@ -1,0 +1,63 @@
+{
+  "type": "matching",
+  "title": "Jewelry words: English and Spanish",
+  "description": "Match each English word with its Spanish translation.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "mode": "translation",
+    "pairsToShow": 6,
+    "pairs": [
+      {
+        "term": "ring",
+        "translation": "anillo"
+      },
+      {
+        "term": "necklace",
+        "translation": "collar"
+      },
+      {
+        "term": "bracelet",
+        "translation": "pulsera"
+      },
+      {
+        "term": "earrings",
+        "translation": "aretes"
+      },
+      {
+        "term": "watch",
+        "translation": "reloj"
+      },
+      {
+        "term": "chain",
+        "translation": "cadena"
+      },
+      {
+        "term": "gold",
+        "translation": "oro"
+      },
+      {
+        "term": "silver",
+        "translation": "plata"
+      },
+      {
+        "term": "diamond",
+        "translation": "diamante"
+      },
+      {
+        "term": "pearl",
+        "translation": "perla"
+      },
+      {
+        "term": "gift",
+        "translation": "regalo"
+      },
+      {
+        "term": "customer",
+        "translation": "cliente"
+      }
+    ]
+  }
+}
