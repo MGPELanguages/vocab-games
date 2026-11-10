@@ -1,0 +1,63 @@
+{
+  "type": "odd-one-out",
+  "title": "Find the odd one out",
+  "description": "Choose the word that does not belong.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "groups": [
+      {
+        "words": [
+          "ring",
+          "necklace",
+          "Monday",
+          "bracelet"
+        ],
+        "odd": "Monday",
+        "explanation": "Monday is a day, not jewelry."
+      },
+      {
+        "words": [
+          "gold",
+          "silver",
+          "diamond",
+          "chain"
+        ],
+        "odd": "chain",
+        "explanation": "Gold, silver and diamond are materials. A chain is a piece of jewelry."
+      },
+      {
+        "words": [
+          "Mexico",
+          "Canada",
+          "Spain",
+          "Friday"
+        ],
+        "odd": "Friday",
+        "explanation": "Friday is a day, not a country."
+      },
+      {
+        "words": [
+          "hello",
+          "welcome",
+          "goodbye",
+          "earrings"
+        ],
+        "odd": "earrings",
+        "explanation": "Earrings are jewelry. The other words are greetings."
+      },
+      {
+        "words": [
+          "one",
+          "five",
+          "seven",
+          "ring"
+        ],
+        "odd": "ring",
+        "explanation": "A ring is jewelry. The other words are numbers."
+      }
+    ]
+  }
+}
