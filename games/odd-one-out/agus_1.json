@@ -1,0 +1,63 @@
+{
+  "type": "odd-one-out",
+  "title": "Find the odd one out",
+  "description": "Choose the word that does not belong.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "groups": [
+      {
+        "words": [
+          "prescription",
+          "dose",
+          "vial",
+          "patent"
+        ],
+        "odd": "patent",
+        "explanation": "A patent is a legal right. The others are about the medicine itself."
+      },
+      {
+        "words": [
+          "manufacturer",
+          "wholesaler",
+          "pharmacy",
+          "fever"
+        ],
+        "odd": "fever",
+        "explanation": "A fever is a symptom. The others are part of the supply chain."
+      },
+      {
+        "words": [
+          "extract",
+          "isolate",
+          "synthesize",
+          "afford"
+        ],
+        "odd": "afford",
+        "explanation": "To afford is about money. The others are lab processes."
+      },
+      {
+        "words": [
+          "willow bark",
+          "compound",
+          "enzyme",
+          "insurer"
+        ],
+        "odd": "insurer",
+        "explanation": "An insurer is a company. The others are scientific terms."
+      },
+      {
+        "words": [
+          "list price",
+          "out-of-pocket",
+          "subsidize",
+          "enzyme"
+        ],
+        "odd": "enzyme",
+        "explanation": "An enzyme is a protein. The others are about paying for medicines."
+      }
+    ]
+  }
+}
