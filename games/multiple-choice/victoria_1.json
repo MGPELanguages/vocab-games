@@ -1,0 +1,87 @@
+{
+  "type": "multiple-choice",
+  "title": "Jewelry store quiz",
+  "description": "Choose the correct answer.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "optionCount": 4,
+    "allowRetry": true,
+    "questions": [
+      {
+        "prompt": "Which word is for something you wear on your finger?",
+        "correct": "ring",
+        "wrong": [
+          "necklace",
+          "earrings",
+          "bracelet"
+        ]
+      },
+      {
+        "prompt": "How do you say \"reloj\" in English?",
+        "correct": "watch",
+        "wrong": [
+          "ring",
+          "chain",
+          "gift"
+        ]
+      },
+      {
+        "prompt": "A customer arrives at 9:00 a.m. What do you say?",
+        "correct": "Good morning! Welcome.",
+        "wrong": [
+          "Good night!",
+          "Goodbye!",
+          "I don't understand."
+        ]
+      },
+      {
+        "prompt": "You want to help a customer. What do you say?",
+        "correct": "Can I help you?",
+        "wrong": [
+          "Where are you from?",
+          "What day is it?",
+          "How are you, ring?"
+        ]
+      },
+      {
+        "prompt": "The customer says \"I'm from Canada.\" What is the nationality?",
+        "correct": "Canadian",
+        "wrong": [
+          "Canada",
+          "Mexican",
+          "Spanish"
+        ]
+      },
+      {
+        "prompt": "What day comes after Monday?",
+        "correct": "Tuesday",
+        "wrong": [
+          "Sunday",
+          "Friday",
+          "Thursday"
+        ]
+      },
+      {
+        "prompt": "How do you say the number 7?",
+        "correct": "seven",
+        "wrong": [
+          "six",
+          "eight",
+          "five"
+        ]
+      },
+      {
+        "prompt": "The customer speaks too fast. What do you say?",
+        "correct": "Can you repeat that, please?",
+        "wrong": [
+          "Welcome!",
+          "Have a nice day.",
+          "I work in a jewelry store."
+        ]
+      }
+    ]
+  }
+}
