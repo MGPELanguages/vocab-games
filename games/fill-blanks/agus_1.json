@@ -1,0 +1,82 @@
+{
+  "type": "fill-blanks",
+  "title": "Complete the pharma sentences",
+  "description": "Write the missing word or phrase.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "items": [
+      {
+        "sentence": "I can't ___ this treatment because it costs more than my monthly salary.",
+        "answer": "afford",
+        "hint": "to have enough money to pay"
+      },
+      {
+        "sentence": "After the ___ expires, other companies can make cheaper versions of the drug.",
+        "answer": "patent",
+        "hint": "a legal right for an invention"
+      },
+      {
+        "sentence": "The pharmacist asked me for my ___ before giving me the antibiotics.",
+        "answer": "prescription",
+        "hint": "a doctor's written order"
+      },
+      {
+        "sentence": "A problem in one step of the ___ can delay the delivery of medicines.",
+        "answer": "supply chain",
+        "hint": "all the steps from manufacturer to customer"
+      },
+      {
+        "sentence": "The ___ was $300, but I paid only $50 because of my health plan.",
+        "answer": "list price",
+        "alternatives": [
+          "list-price"
+        ],
+        "hint": "the official price before discounts"
+      },
+      {
+        "sentence": "Take a double ___ only if your doctor tells you to.",
+        "answer": "dose",
+        "hint": "the amount of medicine at one time"
+      },
+      {
+        "sentence": "My ___ covers 80% of the cost of my medication.",
+        "answer": "insurer",
+        "alternatives": [
+          "insurance company"
+        ],
+        "hint": "a company that pays part of your medical costs"
+      },
+      {
+        "sentence": "A ___ drug has the same active ingredient but a lower price.",
+        "answer": "generic",
+        "hint": "not a brand-name drug"
+      },
+      {
+        "sentence": "Ancient people chewed ___ bark to reduce pain.",
+        "answer": "willow",
+        "hint": "a tree that grows near water"
+      },
+      {
+        "sentence": "A common ___ of this medicine is stomach pain.",
+        "answer": "side effect",
+        "alternatives": [
+          "side-effect"
+        ],
+        "hint": "an unwanted effect of a medicine"
+      },
+      {
+        "sentence": "Scientists ___ the active substance from the plant using alcohol.",
+        "answer": "extracted",
+        "hint": "past simple of a verb that means to take out"
+      },
+      {
+        "sentence": "Aspirin is sometimes used as a blood ___ to help prevent clots.",
+        "answer": "thinner",
+        "hint": "the opposite of thicker"
+      }
+    ]
+  }
+}
