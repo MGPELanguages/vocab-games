@@ -1,0 +1,54 @@
+{
+  "type": "scramble",
+  "title": "Unscramble the pharma words",
+  "description": "Put the letters in the correct order.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "showHints": true,
+    "words": [
+      {
+        "word": "prescription",
+        "hint": "A written order from a doctor to get a medicine."
+      },
+      {
+        "word": "wholesaler",
+        "hint": "A company that buys large quantities and sells to pharmacies."
+      },
+      {
+        "word": "intermediary",
+        "hint": "A person or company between two others in a deal."
+      },
+      {
+        "word": "inflammation",
+        "hint": "Swelling, redness and pain in a part of the body."
+      },
+      {
+        "word": "painkiller",
+        "hint": "A medicine that reduces pain."
+      },
+      {
+        "word": "compound",
+        "hint": "A substance made of two or more elements combined."
+      },
+      {
+        "word": "synthesize",
+        "hint": "To make a substance in a laboratory."
+      },
+      {
+        "word": "enzyme",
+        "hint": "A protein that speeds up chemical reactions in the body."
+      },
+      {
+        "word": "patent",
+        "hint": "A legal right that stops others from making an invention."
+      },
+      {
+        "word": "insurer",
+        "hint": "A company that pays part of your medical costs."
+      }
+    ]
+  }
+}
