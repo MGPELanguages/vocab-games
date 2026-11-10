@@ -1,0 +1,105 @@
+{
+  "type": "multiple-choice",
+  "title": "Pharma vocabulary quiz",
+  "description": "Choose the correct answer.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "optionCount": 4,
+    "allowRetry": true,
+    "questions": [
+      {
+        "prompt": "Which word means \"a medicine that reduces pain\"?",
+        "correct": "painkiller",
+        "wrong": [
+          "enzyme",
+          "compound",
+          "fever"
+        ]
+      },
+      {
+        "prompt": "Which verb means \"to separate a substance from a mixture to obtain it pure\"?",
+        "correct": "isolate",
+        "wrong": [
+          "synthesize",
+          "inhibit",
+          "relieve"
+        ]
+      },
+      {
+        "prompt": "Willow bark is the outer layer of ...",
+        "correct": "a tree",
+        "wrong": [
+          "a mineral",
+          "an animal",
+          "a laboratory chemical"
+        ]
+      },
+      {
+        "prompt": "You can buy aspirin \"over the counter\". This means you can buy it ...",
+        "correct": "without a prescription",
+        "wrong": [
+          "only with a prescription",
+          "only from a wholesaler",
+          "only in a hospital"
+        ]
+      },
+      {
+        "prompt": "A ___ can block a vein and cause serious problems.",
+        "correct": "blood clot",
+        "wrong": [
+          "fever",
+          "side effect",
+          "dose"
+        ]
+      },
+      {
+        "prompt": "Before a drug is approved, volunteers test if it is safe in a ...",
+        "correct": "clinical trial",
+        "wrong": [
+          "supply chain",
+          "patent",
+          "prescription"
+        ]
+      },
+      {
+        "prompt": "A chemist \"synthesizes\" a substance. This means the chemist ...",
+        "correct": "makes it in a laboratory",
+        "wrong": [
+          "takes it from a plant",
+          "sells it to pharmacies",
+          "tests it on volunteers"
+        ]
+      },
+      {
+        "prompt": "Aspirin \"inhibits\" an enzyme. This means it ...",
+        "correct": "slows down or stops a process",
+        "wrong": [
+          "speeds up a process",
+          "creates a new enzyme",
+          "measures a process"
+        ]
+      },
+      {
+        "prompt": "Which medicine has the same active ingredient as a brand-name drug but is usually cheaper?",
+        "correct": "generic drug",
+        "wrong": [
+          "list-price drug",
+          "over-the-counter drug",
+          "out-of-pocket drug"
+        ]
+      },
+      {
+        "prompt": "A person who has no health insurance is ...",
+        "correct": "uninsured",
+        "wrong": [
+          "subsidized",
+          "expired",
+          "synthesized"
+        ]
+      }
+    ]
+  }
+}
