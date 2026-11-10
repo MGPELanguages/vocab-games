@@ -1,0 +1,53 @@
+{
+  "type": "connections",
+  "title": "Jewelry store connections",
+  "description": "Sort 16 words from classes 1 and 2 into four groups.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "groups": [
+      {
+        "name": "Jewelry",
+        "explanation": "Things you sell in a jewelry store.",
+        "words": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "earrings"
+        ]
+      },
+      {
+        "name": "Materials",
+        "explanation": "What jewelry is made of.",
+        "words": [
+          "gold",
+          "silver",
+          "diamond",
+          "pearl"
+        ]
+      },
+      {
+        "name": "Countries",
+        "explanation": "Places where customers are from.",
+        "words": [
+          "Mexico",
+          "Canada",
+          "Spain",
+          "Argentina"
+        ]
+      },
+      {
+        "name": "Days of the week",
+        "explanation": "Days in a week.",
+        "words": [
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Sunday"
+        ]
+      }
+    ]
+  }
+}
