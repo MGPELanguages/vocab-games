@@ -1,0 +1,54 @@
+{
+  "type": "crossword",
+  "title": "Jewelry store crossword",
+  "description": "Use the clues to find the words.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "allowReveal": true,
+    "entries": [
+      {
+        "word": "ring",
+        "clue": "You wear it on your finger."
+      },
+      {
+        "word": "necklace",
+        "clue": "You wear it around your neck."
+      },
+      {
+        "word": "bracelet",
+        "clue": "You wear it on your wrist."
+      },
+      {
+        "word": "earrings",
+        "clue": "You wear them on your ears."
+      },
+      {
+        "word": "watch",
+        "clue": "It tells you the time."
+      },
+      {
+        "word": "gold",
+        "clue": "A yellow metal. It is very expensive."
+      },
+      {
+        "word": "silver",
+        "clue": "A white metal. It is not gold."
+      },
+      {
+        "word": "pearl",
+        "clue": "A small white jewel from the sea."
+      },
+      {
+        "word": "customer",
+        "clue": "A person who buys things in a store."
+      },
+      {
+        "word": "welcome",
+        "clue": "You say it when a customer comes in."
+      }
+    ]
+  }
+}
