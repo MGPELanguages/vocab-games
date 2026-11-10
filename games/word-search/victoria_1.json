@@ -1,0 +1,32 @@
+{
+  "type": "word-search",
+  "title": "Jewelry store word search",
+  "description": "Find the jewelry words in the grid.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "size": "medium",
+    "directions": {
+      "horizontal": true,
+      "vertical": true,
+      "diagonal": false,
+      "backwards": false
+    },
+    "words": [
+      "ring",
+      "necklace",
+      "bracelet",
+      "earrings",
+      "watch",
+      "chain",
+      "gold",
+      "silver",
+      "diamond",
+      "pearl",
+      "gift",
+      "welcome"
+    ]
+  }
+}
