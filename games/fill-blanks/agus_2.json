@@ -1,0 +1,103 @@
+{
+  "type": "fill-blanks",
+  "title": "How the body processes a drug: complete the sentences",
+  "description": "Write the missing word.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "items": [
+      {
+        "sentence": "You should ___ the tablet with a glass of water.",
+        "answer": "swallow",
+        "hint": "to make a pill go down your throat"
+      },
+      {
+        "sentence": "The tablet starts to ___ in the stomach and mixes with the liquid.",
+        "answer": "dissolve",
+        "hint": "to mix with a liquid"
+      },
+      {
+        "sentence": "Most medicines are ___ in the small intestine.",
+        "answer": "absorbed",
+        "hint": "past participle of to absorb"
+      },
+      {
+        "sentence": "After absorption, the drug travels in the ___ to the organs.",
+        "answer": "bloodstream",
+        "alternatives": [
+          "blood stream"
+        ],
+        "hint": "the blood that flows through the body"
+      },
+      {
+        "sentence": "The ___ breaks down many drugs and toxins.",
+        "answer": "liver",
+        "hint": "a large organ"
+      },
+      {
+        "sentence": "The body ___ the drug into smaller substances.",
+        "answer": "metabolizes",
+        "alternatives": [
+          "metabolises"
+        ],
+        "hint": "to break down chemically; he/she/it form"
+      },
+      {
+        "sentence": "Some enzymes ___ the drug, so it is no longer active.",
+        "answer": "neutralize",
+        "alternatives": [
+          "neutralise"
+        ],
+        "hint": "to stop a substance from being active"
+      },
+      {
+        "sentence": "The drug leaves the body in urine when the kidneys ___ it.",
+        "answer": "excrete",
+        "hint": "to remove from the body"
+      },
+      {
+        "sentence": "The ___ filter the blood and produce urine.",
+        "answer": "kidneys",
+        "hint": "two organs; plural"
+      },
+      {
+        "sentence": "The doctor changed the ___: one tablet twice a day instead of three times.",
+        "answer": "dosage",
+        "alternatives": [
+          "dose"
+        ],
+        "hint": "how much and how often"
+      },
+      {
+        "sentence": "This medicine is taken ___, by mouth.",
+        "answer": "orally",
+        "hint": "an adverb that means by mouth"
+      },
+      {
+        "sentence": "Blood sugar can ___ during the day: it goes up and down.",
+        "answer": "fluctuate",
+        "hint": "to go up and down"
+      },
+      {
+        "sentence": "A ___ treatment is designed for one specific patient.",
+        "answer": "personalized",
+        "alternatives": [
+          "personalised"
+        ],
+        "hint": "designed for one person"
+      },
+      {
+        "sentence": "Injection and patch are different ___ of administration.",
+        "answer": "routes",
+        "hint": "ways; plural"
+      },
+      {
+        "sentence": "The ___ of this drug is low: only a small part reaches the blood.",
+        "answer": "bioavailability",
+        "hint": "the proportion that reaches the bloodstream"
+      }
+    ]
+  }
+}
