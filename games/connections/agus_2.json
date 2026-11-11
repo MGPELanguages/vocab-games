@@ -1,0 +1,53 @@
+{
+  "type": "connections",
+  "title": "How the body processes a drug: connections",
+  "description": "Sort 16 words from class 3 into four groups.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "groups": [
+      {
+        "name": "Places in the body",
+        "explanation": "Parts of the body where a drug travels or is processed.",
+        "words": [
+          "bloodstream",
+          "small intestine",
+          "liver",
+          "kidney"
+        ]
+      },
+      {
+        "name": "Taking a medicine",
+        "explanation": "Words about how and how much medicine you take.",
+        "words": [
+          "swallow",
+          "orally",
+          "dosage",
+          "route of administration"
+        ]
+      },
+      {
+        "name": "What happens to the drug",
+        "explanation": "Steps a drug goes through in the body.",
+        "words": [
+          "dissolve",
+          "absorb",
+          "metabolize",
+          "excrete"
+        ]
+      },
+      {
+        "name": "Effect and control",
+        "explanation": "Words about how well a drug works and how it can change.",
+        "words": [
+          "neutralize",
+          "fluctuate",
+          "personalized",
+          "bioavailability"
+        ]
+      }
+    ]
+  }
+}
