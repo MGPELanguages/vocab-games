@@ -1,0 +1,34 @@
+{
+  "type": "word-search",
+  "title": "How the body processes a drug: word search",
+  "description": "Find the words from class 3 in the grid.",
+  "student": "Agus",
+  "level": "B1",
+  "topic": "Pharma vocabulary",
+  "difficulty": "Medium",
+  "content": {
+    "size": "large",
+    "directions": {
+      "horizontal": true,
+      "vertical": true,
+      "diagonal": true,
+      "backwards": false
+    },
+    "words": [
+      "swallow",
+      "dissolve",
+      "absorb",
+      "bloodstream",
+      "intestine",
+      "liver",
+      "metabolize",
+      "neutralize",
+      "excrete",
+      "kidney",
+      "dosage",
+      "orally",
+      "fluctuate",
+      "personalized"
+    ]
+  }
+}
