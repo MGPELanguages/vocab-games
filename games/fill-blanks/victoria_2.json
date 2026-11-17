@@ -1,0 +1,71 @@
+{
+  "type": "fill-blanks",
+  "title": "Complete the shop sentences 2",
+  "description": "Write the missing word.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "items": [
+      {
+        "sentence": "This stone is red. It's a ___.",
+        "answer": "ruby",
+        "hint": "A red stone"
+      },
+      {
+        "sentence": "How ___ is it?",
+        "answer": "much",
+        "hint": "Price question"
+      },
+      {
+        "sentence": "It's too ___. I want a cheaper one.",
+        "answer": "expensive",
+        "hint": "The opposite of cheap"
+      },
+      {
+        "sentence": "What ___ do you want? Small or large?",
+        "answer": "size",
+        "hint": "Small, medium, large"
+      },
+      {
+        "sentence": "A ___ ring is for a marriage.",
+        "answer": "wedding",
+        "hint": "Marriage ceremony"
+      },
+      {
+        "sentence": "Do you want a gift ___?",
+        "answer": "box",
+        "hint": "You put the gift in it"
+      },
+      {
+        "sentence": "Here is your ___. Thank you!",
+        "answer": "receipt",
+        "hint": "A paper that shows you paid"
+      },
+      {
+        "sentence": "It's very ___. It's only 50 pesos.",
+        "answer": "cheap",
+        "hint": "Low price"
+      },
+      {
+        "sentence": "This stone is blue. It's a ___.",
+        "answer": "sapphire",
+        "hint": "A blue stone"
+      },
+      {
+        "sentence": "Can I pay by ___?",
+        "answer": "card",
+        "alternatives": [
+          "credit card"
+        ],
+        "hint": "You can pay with this, not cash"
+      },
+      {
+        "sentence": "I'm just ___, thank you.",
+        "answer": "looking",
+        "hint": "A customer says this when he only wants to see"
+      }
+    ]
+  }
+}
