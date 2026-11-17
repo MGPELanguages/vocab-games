@@ -1,0 +1,87 @@
+{
+  "type": "matching",
+  "title": "Jewelry words 2: English and Spanish",
+  "description": "Match each English word with its Spanish translation.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "mode": "translation",
+    "pairsToShow": 6,
+    "pairs": [
+      {
+        "term": "pendant",
+        "translation": "colgante"
+      },
+      {
+        "term": "brooch",
+        "translation": "broche"
+      },
+      {
+        "term": "charm",
+        "translation": "dije"
+      },
+      {
+        "term": "cufflinks",
+        "translation": "gemelos"
+      },
+      {
+        "term": "ruby",
+        "translation": "rubí"
+      },
+      {
+        "term": "emerald",
+        "translation": "esmeralda"
+      },
+      {
+        "term": "sapphire",
+        "translation": "zafiro"
+      },
+      {
+        "term": "stone",
+        "translation": "piedra"
+      },
+      {
+        "term": "wedding ring",
+        "translation": "anillo de boda"
+      },
+      {
+        "term": "engagement ring",
+        "translation": "anillo de compromiso"
+      },
+      {
+        "term": "size",
+        "translation": "talla"
+      },
+      {
+        "term": "price",
+        "translation": "precio"
+      },
+      {
+        "term": "expensive",
+        "translation": "caro"
+      },
+      {
+        "term": "cheap",
+        "translation": "barato"
+      },
+      {
+        "term": "box",
+        "translation": "caja"
+      },
+      {
+        "term": "bag",
+        "translation": "bolsa"
+      },
+      {
+        "term": "receipt",
+        "translation": "recibo"
+      },
+      {
+        "term": "ribbon",
+        "translation": "cinta"
+      }
+    ]
+  }
+}
