@@ -1,0 +1,53 @@
+{
+  "type": "connections",
+  "title": "Jewelry connections 2",
+  "description": "Sort 16 jewelry store words into four groups.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "groups": [
+      {
+        "name": "Pieces of jewelry",
+        "explanation": "Things you sell in a jewelry store.",
+        "words": [
+          "pendant",
+          "brooch",
+          "cufflinks",
+          "charm"
+        ]
+      },
+      {
+        "name": "Stones",
+        "explanation": "Beautiful stones used in jewelry.",
+        "words": [
+          "ruby",
+          "emerald",
+          "sapphire",
+          "diamond"
+        ]
+      },
+      {
+        "name": "Price and payment",
+        "explanation": "Words to talk about money in the store.",
+        "words": [
+          "price",
+          "expensive",
+          "cheap",
+          "receipt"
+        ]
+      },
+      {
+        "name": "Giving a gift",
+        "explanation": "Things you use to give jewelry as a gift.",
+        "words": [
+          "box",
+          "bag",
+          "ribbon",
+          "gift"
+        ]
+      }
+    ]
+  }
+}
