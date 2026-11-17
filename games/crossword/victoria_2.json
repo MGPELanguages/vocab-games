@@ -1,0 +1,62 @@
+{
+  "type": "crossword",
+  "title": "Jewelry crossword 2",
+  "description": "Use the clues to find the words.",
+  "student": "Victoria",
+  "level": "A1",
+  "topic": "Jewelry store",
+  "difficulty": "Easy",
+  "content": {
+    "allowReveal": true,
+    "entries": [
+      {
+        "word": "pendant",
+        "clue": "It hangs from a chain."
+      },
+      {
+        "word": "brooch",
+        "clue": "You put it on a jacket or a dress."
+      },
+      {
+        "word": "ruby",
+        "clue": "A red stone."
+      },
+      {
+        "word": "emerald",
+        "clue": "A green stone."
+      },
+      {
+        "word": "sapphire",
+        "clue": "A blue stone."
+      },
+      {
+        "word": "ribbon",
+        "clue": "You put it on a gift box."
+      },
+      {
+        "word": "receipt",
+        "clue": "A paper that shows you paid."
+      },
+      {
+        "word": "cheap",
+        "clue": "It does not cost a lot of money."
+      },
+      {
+        "word": "expensive",
+        "clue": "It costs a lot of money."
+      },
+      {
+        "word": "price",
+        "clue": "How much something costs."
+      },
+      {
+        "word": "size",
+        "clue": "Small, medium or large."
+      },
+      {
+        "word": "stone",
+        "clue": "A diamond is a very expensive one."
+      }
+    ]
+  }
+}
